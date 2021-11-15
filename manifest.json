@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "darkmode",
+	"version": "1.0",
+	
+	"description": "Makes google classroom pages dark",
+	
+	"icons": {
+		"48": "darkGrey.png"
+	},
+	
+	"content_scripts": [
+		{
+			"js": ["darkmode.js"],
+			"matches": ["https://*/*"]
+		}
+	]
+
+}
